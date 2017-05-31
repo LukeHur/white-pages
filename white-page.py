@@ -6,7 +6,7 @@ reflect = raw_input("Press freaking ENTER") # make this variable Enter to get in
 if reflect == "": #Set a plan if the user gives no input
     filename = raw_input("Insert the freaking file name you freaking want") # name the file by the name the writer writes
 
-    with open (filename, "w") as f: #Open directly the file the user named (made)
+    with open (filename+".txt","w") as f: #Open directly the file the user named (made)
         print ("Freaking write 3 freaking people's informations you want") # print this text
 
         print ("<First Person>") # print this text
@@ -44,5 +44,4 @@ if reflect == "": #Set a plan if the user gives no input
 
 
         print "The file is saved. Bye!" # print what I wrote
-        f.close() # close the program, I love David and Mr. Olinda 
-
+        f.close() # close the program, I love David and Mr. Olinda
